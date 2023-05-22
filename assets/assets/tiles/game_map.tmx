@@ -1,0 +1,1073 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="70" height="45" tilewidth="32" tileheight="32" infinite="0" nextlayerid="48" nextobjectid="126">
+ <group id="35" name="backgroundmaps" locked="1">
+  <imagelayer id="32" name="World_image" visible="0" locked="1" offsetx="-415" offsety="-235">
+   <image source="../images/maps/world_map.png" width="2659" height="1711"/>
+   <properties>
+    <property name="number" type="int" value="0"/>
+   </properties>
+  </imagelayer>
+  <imagelayer id="33" name="Australia" visible="0" locked="1" offsetx="-339" offsety="-323">
+   <image source="../images/maps/australia.png" width="2601" height="1621"/>
+   <properties>
+    <property name="number" type="int" value="1"/>
+   </properties>
+  </imagelayer>
+  <imagelayer id="34" name="SouthEast_Asia" locked="1" offsetx="-395" offsety="-335">
+   <image source="../images/maps/southeast_asia.png" width="2600" height="1620"/>
+   <properties>
+    <property name="number" type="int" value="2"/>
+   </properties>
+  </imagelayer>
+  <imagelayer id="36" name="East_Asia" visible="0" locked="1" offsetx="-395" offsety="-335">
+   <image source="../images/maps/east_asia.png" width="2601" height="1621"/>
+   <properties>
+    <property name="number" type="int" value="3"/>
+   </properties>
+  </imagelayer>
+  <imagelayer id="38" name="Middle_Asia" visible="0" locked="1" offsetx="-150" offsety="-335">
+   <image source="../images/maps/middle_asia.png" width="2601" height="1621"/>
+   <properties>
+    <property name="number" type="int" value="4"/>
+   </properties>
+  </imagelayer>
+  <imagelayer id="39" name="South_Asia" visible="0" locked="1" offsetx="-395" offsety="-237">
+   <image source="../images/maps/south_asia.png" width="2601" height="1621"/>
+   <properties>
+    <property name="number" type="int" value="5"/>
+   </properties>
+  </imagelayer>
+  <imagelayer id="40" name="Middle_East" visible="0" locked="1" offsetx="-335" offsety="-295">
+   <image source="../images/maps/middle_east.png" width="2601" height="1621"/>
+   <properties>
+    <property name="number" type="int" value="6"/>
+   </properties>
+  </imagelayer>
+  <imagelayer id="41" name="north_europe" visible="0" locked="1" offsetx="-283" offsety="-255">
+   <image source="../images/maps/north_europe.png" width="2601" height="1621"/>
+   <properties>
+    <property name="number" type="int" value="7"/>
+   </properties>
+  </imagelayer>
+  <imagelayer id="42" name="europe" visible="0" locked="1" offsetx="-383" offsety="-351">
+   <image source="../images/maps/europe.png" width="2601" height="1621"/>
+   <properties>
+    <property name="number" type="int" value="8"/>
+   </properties>
+  </imagelayer>
+  <imagelayer id="43" name="north_africa" visible="0" locked="1" offsetx="-323" offsety="-312">
+   <image source="../images/maps/north_africa.png" width="2601" height="1621"/>
+   <properties>
+    <property name="number" type="int" value="9"/>
+   </properties>
+  </imagelayer>
+  <imagelayer id="44" name="south_africa" visible="0" locked="1" offsetx="-343" offsety="-339">
+   <image source="../images/maps/south_africa.png" width="2601" height="1621"/>
+   <properties>
+    <property name="number" type="int" value="10"/>
+   </properties>
+  </imagelayer>
+  <imagelayer id="45" name="south_america" visible="0" locked="1" offsetx="-295" offsety="-335">
+   <image source="../images/maps/south_america.png" width="2601" height="1621"/>
+   <properties>
+    <property name="number" type="int" value="11"/>
+   </properties>
+  </imagelayer>
+  <imagelayer id="46" name="central_america" visible="0" locked="1" offsetx="-291" offsety="-347">
+   <image source="../images/maps/central_america.png" width="2601" height="1621"/>
+   <properties>
+    <property name="number" type="int" value="12"/>
+   </properties>
+  </imagelayer>
+  <imagelayer id="47" name="north_america" visible="0" locked="1" offsetx="-319" offsety="-299">
+   <image source="../images/maps/north_america.png" width="2601" height="1621"/>
+   <properties>
+    <property name="number" type="int" value="13"/>
+   </properties>
+  </imagelayer>
+ </group>
+ <objectgroup id="3" name="continens">
+  <object id="1" name="Australia" class="Continent" x="1671" y="877">
+   <properties>
+    <property name="number" type="int" value="1"/>
+    <property name="open" type="bool" value="true"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="9" name="SouthEast_Asia" class="Continent" x="1547" y="692">
+   <properties>
+    <property name="number" type="int" value="2"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="13" name="East_Asia" class="Continent" x="1600.33" y="480.667">
+   <properties>
+    <property name="number" type="int" value="3"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="15" name="Middle_Asia" class="Continent" x="1382" y="367">
+   <properties>
+    <property name="number" type="int" value="4"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="16" name="South_Asia" class="Continent" x="1327" y="593">
+   <properties>
+    <property name="number" type="int" value="5"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="17" name="MiddleEast_Asia" class="Continent" x="1145" y="536">
+   <properties>
+    <property name="number" type="int" value="6"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="19" name="North_Europe" class="Continent" x="1088" y="330">
+   <properties>
+    <property name="number" type="int" value="7"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="20" name="Western_Europe" class="Continent" x="924" y="418">
+   <properties>
+    <property name="number" type="int" value="8"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="21" name="North_Africa" class="Continent" x="933" y="615">
+   <properties>
+    <property name="number" type="int" value="9"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="22" name="South_Africa" class="Continent" x="1061" y="813">
+   <properties>
+    <property name="number" type="int" value="10"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="23" name="South_America" class="Continent" x="591" y="850">
+   <properties>
+    <property name="number" type="int" value="11"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="24" name="Central_America" class="Continent" x="402" y="624">
+   <properties>
+    <property name="number" type="int" value="12"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="25" name="North_America" class="Continent" x="406" y="393">
+   <properties>
+    <property name="number" type="int" value="13"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="4" name="levels">
+  <object id="3" name="Wellington" class="1" x="1535" y="895" visible="0">
+   <properties>
+    <property name="Level_no" value="1_01"/>
+    <property name="next" value="1_02"/>
+    <property name="open" type="bool" value="true"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="4" name="Sydney" class="1" x="1165" y="642" visible="0">
+   <properties>
+    <property name="Level_no" value="1_02"/>
+    <property name="next" value="1_03"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="2" name="Melbourne" class="1" x="1011" y="748" visible="0">
+   <properties>
+    <property name="Level_no" value="1_03"/>
+    <property name="next" value="1_04"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="6" name="Perth" class="1" x="506" y="563" visible="0">
+   <properties>
+    <property name="Level_no" value="1_04"/>
+    <property name="next" value="1_05"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="5" name="Ayers Rock" class="1" x="836" y="403" visible="0">
+   <properties>
+    <property name="Level_no" value="1_05"/>
+    <property name="next" value="1_06"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="28" name="Darwin" class="1" x="852" y="154" visible="0">
+   <properties>
+    <property name="Level_no" value="1_06"/>
+    <property name="next" value="2_07"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="29" name="Port Moresby" class="2" x="1400" y="886" visible="0">
+   <properties>
+    <property name="Level_no" value="2_07"/>
+    <property name="next" value="2_08"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="31" name="Jakarta" class="2" x="542" y="850">
+   <properties>
+    <property name="Level_no" value="2_08"/>
+    <property name="next" value="2_09"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="32" name="Singapore" class="2" x="459" y="672">
+   <properties>
+    <property name="Level_no" value="2_09"/>
+    <property name="next" value="2_10"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="33" name="Kuala Lumpur" class="2" x="327.333" y="540.667">
+   <properties>
+    <property name="Level_no" value="2_10"/>
+    <property name="next" value="2_11"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="35" name="Bangkok" class="2" x="350.667" y="377.333">
+   <properties>
+    <property name="Level_no" value="2_11"/>
+    <property name="next" value="2_12"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="36" name="Hanoi" class="2" x="444" y="201.333">
+   <properties>
+    <property name="Level_no" value="2_12"/>
+    <property name="next" value="2_13"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="40" name="Hongkong" class="2" x="618" y="166" visible="0">
+   <properties>
+    <property name="Level_no" value="2_13"/>
+    <property name="next" value="2_14"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="44" name="Manila" class="2" x="800" y="350" visible="0">
+   <properties>
+    <property name="Level_no" value="2_14"/>
+    <property name="next" value="3_15"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="41" name="Kathmandu" class="3" x="110" y="934" visible="0">
+   <properties>
+    <property name="Level_no" value="3_15"/>
+    <property name="next" value="3_16"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="39" name="Shanghai" class="3" x="1078" y="912" visible="0">
+   <properties>
+    <property name="Level_no" value="3_16"/>
+    <property name="next" value="3_17"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="38" name="Beijing" class="3" x="906" y="626" visible="0">
+   <properties>
+    <property name="Level_no" value="3_17"/>
+    <property name="next" value="3_18"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="37" name="Seoul" class="3" x="1196" y="693.333" visible="0">
+   <properties>
+    <property name="Level_no" value="3_18"/>
+    <property name="next" value="3_19"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="42" name="Tokyo" class="3" x="1546" y="722" visible="0">
+   <properties>
+    <property name="Level_no" value="3_19"/>
+    <property name="next" value="3_20"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="43" name="Sapporo" class="3" x="1498" y="460" visible="0">
+   <properties>
+    <property name="Level_no" value="3_20"/>
+    <property name="next" value="3_21"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="34" name="Ulaanbaatar" class="3" x="336.667" y="162.667" visible="0">
+   <properties>
+    <property name="Level_no" value="3_21"/>
+    <property name="next" value="4_22"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="45" name="Nur-Sultan" class="4" x="1144.97" y="190.909" visible="0">
+   <properties>
+    <property name="Level_no" value="4_22"/>
+    <property name="next" value="4_23"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="46" name="Bishkek" class="4" x="1047.7" y="554" visible="0">
+   <properties>
+    <property name="Level_no" value="4_24"/>
+    <property name="next" value="4_25"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="47" name="Almaty" class="4" x="1335.58" y="538.848" visible="0">
+   <properties>
+    <property name="Level_no" value="4_23"/>
+    <property name="next" value="4_24"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="48" name="Tashkent" class="4" x="717.394" y="602.485" visible="0">
+   <properties>
+    <property name="Level_no" value="4_25"/>
+    <property name="next" value="4_26"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="49" name="Dushanbe" class="4" x="726.485" y="802.485" visible="0">
+   <properties>
+    <property name="Level_no" value="4_26"/>
+    <property name="next" value="4_27"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="50" name="Ashgabat" class="4" x="268.909" y="847.939" visible="0">
+   <properties>
+    <property name="Level_no" value="4_27"/>
+    <property name="next" value="5_28"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="51" name="Yangon" class="5" x="1663.76" y="652.061" visible="0">
+   <properties>
+    <property name="Level_no" value="5_28"/>
+    <property name="next" value="5_29"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="52" name="Dhaka" class="5" x="1400.91" y="347.455" visible="0">
+   <properties>
+    <property name="Level_no" value="5_29"/>
+    <property name="next" value="5_30"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="53" name="Kolkata" class="5" x="1264.67" y="426.242" visible="0">
+   <properties>
+    <property name="Level_no" value="5_30"/>
+    <property name="next" value="5_31"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="56" name="Colombo" class="5" x="1012" y="1014.55" visible="0">
+   <properties>
+    <property name="Level_no" value="5_31"/>
+    <property name="next" value="5_32"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="55" name="Mumbai" class="5" x="682.788" y="626.242" visible="0">
+   <properties>
+    <property name="Level_no" value="5_32"/>
+    <property name="next" value="5_33"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="54" name="New Delhi" class="5" x="732.303" y="125.939" visible="0">
+   <properties>
+    <property name="Level_no" value="5_33"/>
+    <property name="next" value="5_34"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="57" name="Karachi" class="5" x="407.03" y="320.182" visible="0">
+   <properties>
+    <property name="Level_no" value="5_34"/>
+    <property name="next" value="6_35"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="58" name="Kabul" class="6" x="1610" y="192" visible="0">
+   <properties>
+    <property name="Level_no" value="6_35"/>
+    <property name="next" value="6_36"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="63" name="Tehran" class="6" x="1166" y="162" visible="0">
+   <properties>
+    <property name="Level_no" value="6_36"/>
+    <property name="next" value="6_37"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="64" name="Baghdad" class="6" x="918" y="360" visible="0">
+   <properties>
+    <property name="Level_no" value="6_37"/>
+    <property name="next" value="6_38"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="68" name="Dubai" class="6" x="1252" y="654" visible="0">
+   <properties>
+    <property name="Level_no" value="6_38"/>
+    <property name="next" value="6_39"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="67" name="Mecca" class="6" x="738" y="774" visible="0">
+   <properties>
+    <property name="Level_no" value="6_39"/>
+    <property name="next" value="6_40"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="66" name="Cairo" class="6" x="414" y="490" visible="0">
+   <properties>
+    <property name="Level_no" value="6_40"/>
+    <property name="next" value="6_41"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="65" name="Jerusalem" class="6" x="590" y="394" visible="0">
+   <properties>
+    <property name="Level_no" value="6_41"/>
+    <property name="next" value="6_42"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="69" name="Istanbul" class="6" x="334" y="122">
+   <properties>
+    <property name="Level_no" value="6_42"/>
+    <property name="next" value="7_43"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="78" name="Moscow" class="7" x="1370" y="794" visible="0">
+   <properties>
+    <property name="Level_no" value="7_43"/>
+    <property name="next" value="7_44"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="77" name="Vilnius" class="7" x="960" y="872" visible="0">
+   <properties>
+    <property name="Level_no" value="7_44"/>
+    <property name="next" value="7_45"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="75" name="Saint Petersburg" class="7" x="1094" y="616" visible="0">
+   <properties>
+    <property name="Level_no" value="7_45"/>
+    <property name="next" value="7_46"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="74" name="Helsinki" class="7" x="868" y="570" visible="0">
+   <properties>
+    <property name="Level_no" value="7_46"/>
+    <property name="next" value="7_47"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="72" name="Stockholm" class="7" x="646" y="636" visible="0">
+   <properties>
+    <property name="Level_no" value="7_47"/>
+    <property name="next" value="7_48"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="73" name="Oslo" class="7" x="414" y="642" visible="0">
+   <properties>
+    <property name="Level_no" value="7_48"/>
+    <property name="next" value="7_49"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="71" name="Copenhagen" class="7" x="512" y="836" visible="0">
+   <properties>
+    <property name="Level_no" value="7_49"/>
+    <property name="next" value="7_50"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="70" name="Berlin" class="7" x="552" y="1012" visible="0">
+   <properties>
+    <property name="Level_no" value="7_50"/>
+    <property name="next" value="7_51"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="76" name="Warsaw" class="7" x="802" y="1020" visible="0">
+   <properties>
+    <property name="Level_no" value="7_51"/>
+    <property name="next" value="8_52"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="79" name="Budapest" class="8" x="1268" y="492" visible="0">
+   <properties>
+    <property name="Level_no" value="8_52"/>
+    <property name="next" value="8_53"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="86" name="Prague" class="8" x="1038" y="364" visible="0">
+   <properties>
+    <property name="Level_no" value="8_53"/>
+    <property name="next" value="8_54"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="85" name="Munich" class="8" x="870" y="466" visible="0">
+   <properties>
+    <property name="Level_no" value="8_54"/>
+    <property name="next" value="8_55"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="83" name="Paris" class="8" x="570" y="456" visible="0">
+   <properties>
+    <property name="Level_no" value="8_55"/>
+    <property name="next" value="8_56"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="84" name="London" class="8" x="476" y="270" visible="0">
+   <properties>
+    <property name="Level_no" value="8_56"/>
+    <property name="next" value="8_57"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="81" name="Madrid" class="8" x="356" y="802" visible="0">
+   <properties>
+    <property name="Level_no" value="8_57"/>
+    <property name="next" value="8_58"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="88" name="Monte Carlo" class="8" x="748" y="664" visible="0">
+   <properties>
+    <property name="Level_no" value="8_58"/>
+    <property name="next" value="8_59"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="82" name="Rome" class="8" x="954" y="740" visible="0">
+   <properties>
+    <property name="Level_no" value="8_59"/>
+    <property name="next" value="8_60"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="80" name="Athens" class="8" x="1380" y="914" visible="0">
+   <properties>
+    <property name="Level_no" value="8_60"/>
+    <property name="next" value="8_61"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="87" name="Tunis" class="8" x="876" y="978" visible="0">
+   <properties>
+    <property name="Level_no" value="8_61"/>
+    <property name="next" value="9_62"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="90" name="Casablanca" class="9" x="352" y="126" visible="0">
+   <properties>
+    <property name="Level_no" value="9_62"/>
+    <property name="next" value="9_63"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="89" name="Dakar" class="9" x="94" y="712" visible="0">
+   <properties>
+    <property name="Level_no" value="9_63"/>
+    <property name="next" value="9_64"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="91" name="Monrovia" class="9" x="234" y="956" visible="0">
+   <properties>
+    <property name="Level_no" value="9_64"/>
+    <property name="next" value="9_65"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="95" name="Bamako" class="9" x="462" y="802" visible="0">
+   <properties>
+    <property name="Level_no" value="9_65"/>
+    <property name="next" value="9_66"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="92" name="Lagos" class="9" x="798" y="984" visible="0">
+   <properties>
+    <property name="Level_no" value="9_66"/>
+    <property name="next" value="9_67"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="94" name="N'Djamena" class="9" x="1214" y="722" visible="0">
+   <properties>
+    <property name="Level_no" value="9_67"/>
+    <property name="next" value="9_68"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="93" name="Khartum" class="9" x="1702" y="654" visible="0">
+   <properties>
+    <property name="Level_no" value="9_68"/>
+    <property name="next" value="10_69"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="96" name="Nairobi" class="10" x="1346" y="146" visible="0">
+   <properties>
+    <property name="Level_no" value="10_69"/>
+    <property name="next" value="10_70"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="97" name="Kinshasa" class="10" x="802" y="222" visible="0">
+   <properties>
+    <property name="Level_no" value="10_70"/>
+    <property name="next" value="10_71"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="98" name="Luanda" class="10" x="748" y="412" visible="0">
+   <properties>
+    <property name="Level_no" value="10_71"/>
+    <property name="next" value="10_72"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="99" name="Lusaka" class="10" x="1074" y="498" visible="0">
+   <properties>
+    <property name="Level_no" value="10_72"/>
+    <property name="next" value="10_73"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="102" name="Antananarivo" class="10" x="1574" y="624" visible="0">
+   <properties>
+    <property name="Level_no" value="10_73"/>
+    <property name="next" value="10_74"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="100" name="Johannesburg" class="10" x="1092" y="782" visible="0">
+   <properties>
+    <property name="Level_no" value="10_74"/>
+    <property name="next" value="10_75"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="101" name="Cape Town" class="10" x="864" y="1012" visible="0">
+   <properties>
+    <property name="Level_no" value="10_75"/>
+    <property name="next" value="11_76"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="105" name="Rio de Janeiro" class="11" x="1286" y="708" visible="0">
+   <properties>
+    <property name="Level_no" value="11_76"/>
+    <property name="next" value="11_77"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="103" name="Buenos Aires" class="11" x="1016" y="980" visible="0">
+   <properties>
+    <property name="Level_no" value="11_77"/>
+    <property name="next" value="11_78"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="104" name="Santiago" class="11" x="778" y="982" visible="0">
+   <properties>
+    <property name="Level_no" value="11_78"/>
+    <property name="next" value="11_79"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="106" name="La Paz" class="11" x="794" y="582" visible="0">
+   <properties>
+    <property name="Level_no" value="11_79"/>
+    <property name="next" value="11_80"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="107" name="Cuzco" class="11" x="642" y="448" visible="0">
+   <properties>
+    <property name="Level_no" value="11_80"/>
+    <property name="next" value="11_81"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="109" name="Manaus" class="11" x="950" y="248" visible="0">
+   <properties>
+    <property name="Level_no" value="11_81"/>
+    <property name="next" value="11_82"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="108" name="Bogotá" class="11" x="630" y="120" visible="0">
+   <properties>
+    <property name="Level_no" value="11_82"/>
+    <property name="next" value="12_83"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="110" name="Caracas" class="12" x="1676" y="808" visible="0">
+   <properties>
+    <property name="Level_no" value="12_83"/>
+    <property name="next" value="12_84"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="111" name="Panama City" class="12" x="1158" y="856" visible="0">
+   <properties>
+    <property name="Level_no" value="12_84"/>
+    <property name="next" value="12_85"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="114" name="Managua" class="12" x="910" y="766" visible="0">
+   <properties>
+    <property name="Level_no" value="12_85"/>
+    <property name="next" value="12_86"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="116" name="Guatemala City" class="12" x="686" y="576" visible="0">
+   <properties>
+    <property name="Level_no" value="12_86"/>
+    <property name="next" value="12_87"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="112" name="Mexico City" class="12" x="342" y="432" visible="0">
+   <properties>
+    <property name="Level_no" value="12_87"/>
+    <property name="next" value="12_88"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="115" name="Havana" class="12" x="1040" y="272" visible="0">
+   <properties>
+    <property name="Level_no" value="12_88"/>
+    <property name="next" value="12_89"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="113" name="Miami" class="12" x="1164" y="156" visible="0">
+   <properties>
+    <property name="Level_no" value="12_89"/>
+    <property name="next" value="13_90"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="117" name="Dallas" class="13" x="844" y="860" visible="0">
+   <properties>
+    <property name="Level_no" value="13_90"/>
+    <property name="next" value="13_91"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="118" name="Chicago" class="13" x="1094" y="580" visible="0">
+   <properties>
+    <property name="Level_no" value="13_95"/>
+    <property name="next" value="13_96"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="119" name="Pittsburgh" class="13" x="1230" y="624" visible="0">
+   <properties>
+    <property name="Level_no" value="13_96"/>
+    <property name="next" value="13_97"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="120" name="New York" class="13" x="1376" y="686" visible="0">
+   <properties>
+    <property name="Level_no" value="13_97"/>
+    <property name="next" value="99_99"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="121" name="Los Angeles" class="13" x="324" y="844">
+   <properties>
+    <property name="Level_no" value="13_93"/>
+    <property name="next" value="13_94"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="123" name="Las Vegas" class="13" x="458" y="720" visible="0">
+   <properties>
+    <property name="Level_no" value="13_92"/>
+    <property name="next" value="13_93"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="124" name="Denver" class="13" x="652" y="612" visible="0">
+   <properties>
+    <property name="Level_no" value="13_91"/>
+    <property name="next" value="13_92"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="125" name="Seattle" class="13" x="364" y="388" visible="0">
+   <properties>
+    <property name="Level_no" value="13_94"/>
+    <property name="next" value="13_95"/>
+    <property name="open" type="bool" value="false"/>
+    <property name="star" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="11" name="helper" locked="1">
+  <object id="12" x="0" y="0" width="1920" height="1080"/>
+ </objectgroup>
+</map>
